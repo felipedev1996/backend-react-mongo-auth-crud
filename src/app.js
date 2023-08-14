@@ -6,7 +6,7 @@ import cookieParser from "cookie-parser";
 import authRoutes from "./routes/auth.routes.js";
 import taksRoutes from "./routes/tasks.routes.js";
 import { FRONTEND_URL } from "./config.js";
-
+//local backend
 const app = express();
 
 app.use(
