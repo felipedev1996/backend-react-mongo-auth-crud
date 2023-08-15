@@ -13,4 +13,4 @@ export const TOKEN_SECRET = process.env.TOKEN_SECRET || "secret";
 
 
 // export const FRONTEND_URL = process.env.FRONTEND_URL || "https://white-ground-077ba4d0f.3.azurestaticapps.net"; 
-export const FRONTEND_URL = process.env.FRONTEND_URL ; 
+export const FRONTEND_URL =" http://127.0.0.1:5173" ; 
