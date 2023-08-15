@@ -5,9 +5,7 @@ config();
 export const PORT = process.env.PORT || 4000;
 
 
-// export const MONGODB_URI = "mongodb://0.0.0.0:27017/react-mongo-auth-crud";
-// export const MONGODB_URI = process.env.MONGODB_URI ;
-export const MONGODB_URI = "mongodb+srv://userimgur:pilipe123@imgur.l6fhfql.mongodb.net/react-task-auth?retryWrites=true&w=majority";
+export const MONGODB_URI = process.env.MONGODB_URI ;
 export const TOKEN_SECRET = process.env.TOKEN_SECRET || "secret";
 
 
